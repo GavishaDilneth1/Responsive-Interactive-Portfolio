@@ -1,38 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
-
+*{
+    background-color: black;
+}
 body {
       margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .nav{
-      background-color: #333;
-      overflow: hidden;
-    }
-
-    .nava {
-      float: left;
-      display: flex;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 20px 26px;
-      text-decoration: none;
-      font-size: 25px;
-      text-align: center;
-      margin-top: 20px;
       font-family: "WDXL Lubrifont TC", sans-serif;
+      
+    }
+    .nava{
+        justify-content: center;
+        display: flex;
+        gap: 50px;
+        text-align: center;
+        font-family: "WDXL Lubrifont TC", sans-serif;
+        font-size: 25px;
+        color: #fff;
+        padding: 7px;
+        margin: 5px;
+        transition: 0.5s ease-out;
+    }
+    .active{
+        color: brown;
+
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: #fff;
+    }
+    nav :hover{
+        cursor: pointer;
+        color: brown;
+        transition: 0.5s ease-in;
+    }
+    .img {
+        padding: 10px;
+        margin: 5px 0 5px 10px;
+        background-color: black;
+        transition: transform 0.5s ease, box-shadow 0.5s ease;
+        justify-content: center;
+        align-items: center;
     }
 
-    .nava:hover {
-      
-      color: rgb(231, 11, 11);
+    .img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+        
     }
-    .img-nav{
-        width: 20%;
-        margin: 10px;
-        border-radius: 50%;
-        align-items: start;
-        margin-left: 10px;
+
+    .container{
+        background-color: black;
+    }
+
     
-    }
 
