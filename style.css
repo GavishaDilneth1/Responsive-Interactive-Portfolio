@@ -28,7 +28,8 @@
 }
 .navli a:hover{
    color: yellowgreen;
-   transition: 0.7s ease-in;
+   transform: scale(1.05);
+   transition: 0.5s ease-out;
 }
 .navli a{
     color: #0b0a0a;
